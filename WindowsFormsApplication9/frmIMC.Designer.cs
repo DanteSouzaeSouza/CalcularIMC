@@ -38,45 +38,43 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 15);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(9, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 13);
+            this.label1.Size = new System.Drawing.Size(86, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Peso em kg:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 44);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(9, 54);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 13);
+            this.label2.Size = new System.Drawing.Size(87, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Altura em m:";
             // 
             // txtPeso
             // 
-            this.txtPeso.Location = new System.Drawing.Point(89, 12);
-            this.txtPeso.Margin = new System.Windows.Forms.Padding(2);
+            this.txtPeso.Location = new System.Drawing.Point(119, 15);
+            this.txtPeso.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtPeso.Name = "txtPeso";
-            this.txtPeso.Size = new System.Drawing.Size(76, 20);
+            this.txtPeso.Size = new System.Drawing.Size(100, 22);
             this.txtPeso.TabIndex = 2;
             // 
             // txtAltura
             // 
-            this.txtAltura.Location = new System.Drawing.Point(89, 44);
-            this.txtAltura.Margin = new System.Windows.Forms.Padding(2);
+            this.txtAltura.Location = new System.Drawing.Point(119, 54);
+            this.txtAltura.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(76, 20);
+            this.txtAltura.Size = new System.Drawing.Size(100, 22);
             this.txtAltura.TabIndex = 3;
             // 
             // btnCalcula
             // 
-            this.btnCalcula.Location = new System.Drawing.Point(40, 76);
-            this.btnCalcula.Margin = new System.Windows.Forms.Padding(2);
+            this.btnCalcula.Location = new System.Drawing.Point(53, 94);
+            this.btnCalcula.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCalcula.Name = "btnCalcula";
-            this.btnCalcula.Size = new System.Drawing.Size(99, 32);
+            this.btnCalcula.Size = new System.Drawing.Size(132, 39);
             this.btnCalcula.TabIndex = 4;
             this.btnCalcula.Text = "Calcula";
             this.btnCalcula.UseVisualStyleBackColor = true;
@@ -84,15 +82,15 @@
             // 
             // FrmIMC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(179, 117);
+            this.ClientSize = new System.Drawing.Size(239, 144);
             this.Controls.Add(this.btnCalcula);
             this.Controls.Add(this.txtAltura);
             this.Controls.Add(this.txtPeso);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmIMC";
